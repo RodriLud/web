@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image with Sound</title>
+    <link rel="stylesheet" href="../css/screamer.css">
+</head>
+<body>
+    <div class="image-container">
+        <img src="../imagenes/screamers1.jpg.png" alt="Screamer Image" id="image">
+    </div>
+    <audio id="background-audio" src="../audio/Efecto_de_Sonido_de_SUSPENSO_CINEMATICO_(youconvert.net).mp3" autoplay></audio>
+
+    <script>
+        window.onload = function() {
+            const image = document.getElementById('image');
+
+            // Show the image for 10 seconds, then try to close the tab
+            setTimeout(function() {
+                // Attempt to close the window/tab
+                try {
+                    window.open('', '_self', '');
+                    window.close();
+                } catch (e) {
+                    alert('Por favor, cierre esta pestaña manualmente.');
+                }
+            }, 10000); // 10000 ms = 10 seconds
+        };
+    </script>
+</body>
+</html>

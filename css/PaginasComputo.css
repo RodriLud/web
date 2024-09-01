@@ -1,0 +1,113 @@
+/* Reseteo de márgenes, bordes y padding para toda la página */
+* {
+	margin: 0;
+	border: 0;
+    padding: 0;
+}
+
+/* Estilo general de texto para toda la página */
+#principal {
+  text-align: center;
+    font-family: 'sans-serif', 'Hind Siliguri',Arial,'Hind Maduray';
+}
+
+body {
+    background-color: #b6b9b8;
+    font-family: 'Lato', 'Verdana', sans-serif; /* Cambiado a Lato y Verdana */
+}
+
+header {
+	background-color: #ffffff;
+}
+
+header h1 {
+	padding: 20px;
+	text-align: center;
+	color: rgb(0, 0, 0);
+    font-size: 2.5em; /* Ajustado tamaño de fuente */
+    font-family: 'Poppins', sans-serif; /* Cambiado a Poppins */
+}
+
+header img {
+	width: 100%;
+	vertical-align: bottom;
+}
+
+nav {
+	background-color: #fdfeff;
+    text-align: center;
+}
+
+nav a {
+	padding: 10px;
+	text-decoration: none;
+	color: black;
+	display: inline-block;
+    margin: 0 28px;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif; /* Cambiado a Open Sans */
+}
+
+nav a:hover {
+    background-color: red;
+}
+
+main {
+    display: flex;
+}
+
+aside img {
+    width: 100%;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+
+section {
+    text-align: center;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    font-size: 22px;
+    font-family: sans-serif; /* Cambiado a Merriweather */
+    margin-top: 50px;
+}
+
+section figure img {
+    width: 40%;
+    height: 110%;
+    margin: 10px auto;
+    display: flex;
+    border-radius: 10%;
+}
+
+section figure {
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+figure a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Raleway', sans-serif; /* Cambiado a Raleway */
+}
+
+footer {
+    padding: 10px;
+    text-align: center;
+    background-color: #ebebeb;
+    font-family: 'Nunito', sans-serif; /* Cambiado a Nunito */
+}
+
+footer p {
+    margin-bottom: 10px;
+    color: black;
+}
+
+footer img {
+    width: 80px;
+    border-radius: 30px;
+    margin-left: 80px;
+}

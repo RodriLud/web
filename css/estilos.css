@@ -1,0 +1,134 @@
+/* *{ sirve para que la pagina no tengan bordes y se apegue todos los lados */
+* {
+	margin: 0;
+	border: 0;
+    padding: 0;
+}
+
+/* font-family es para cambiar el tipo de letra*/
+#principal{
+    text-align: center;
+    font-family: 'sans-serif', 'Hind Siliguri',Arial,'Hind Maduray';
+}
+body{
+    background-color: #b6b9b8;
+}
+
+header {
+	background-color: #ffffff;
+}
+header h1 {
+	padding: 20px;
+	text-align: center;
+	color: rgb(0, 0, 0);
+    font-size: xx-large;
+}
+/* vertical-align : sirve para unir los cuadros*/
+header img {
+	width: 100%;;
+	vertical-align: bottom;
+}
+nav {
+	background-color: #fdfeff;
+    text-align: center;
+    
+   
+}
+
+nav a {
+	padding: 16px ;
+	text-decoration: none;
+	color: black;
+	display: inline-block;
+    margin: 0 28px;
+    font-size: 20px;
+}
+nav a:hover{
+    background-color: red;
+
+}
+
+main {
+    display: flex;
+}
+
+aside {
+    width: 20%;
+    padding: 20px;
+    background-color: #f52865;
+    
+}
+
+aside h3{
+    padding: 20px 0;
+}
+aside a{
+    display: block;
+    padding: 10px 0;
+    text-decoration: none;
+    color: black;
+    
+}
+
+aside img{
+    width: 100%;
+    border-radius: 30px;
+    margin-top: 200px;  
+}
+<!---->
+
+section{
+    text-align: center;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+section figure img{
+    width: 60%;
+    margin: 10px auto;
+    display: block;
+    border-radius: 30px;
+    
+}
+
+section figure{
+    width: 40%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+section h2{
+    text-decoration: none;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+
+figure a{
+    text-decoration: none;
+    color: black;
+}
+/*margin-top:separacion de arriba*/
+
+footer {
+    padding: 10px;
+    text-align: center;
+    background-color: #ebebeb;
+}
+footer p {
+    margin-bottom: 10px;
+    color: black;
+}
+footer img{
+    width: 80px;
+    border-radius: 30px;
+    margin-left: 80px;
+    
+}
+
+
+
+
+
